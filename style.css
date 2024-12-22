@@ -77,7 +77,7 @@ body {
     padding: 20px;
     padding-bottom: 60px;
     background-color: #000;
-    background-image: url('path_to_star_background_image.jpg');
+    background-image: url('path_to_star_background_image.jpg'); /* Add the path to your star background image */
     background-size: cover;
     background-attachment: fixed;
     color: white;
