@@ -89,10 +89,13 @@ h1 {
     font-size: 1.5em;
     text-align: center;
     white-space: nowrap;
+    color: #ffcc00; /* Star yellow */
+    text-shadow: 2px 2px 4px #000000; /* Shadow for better readability */
 }
 
-h2, button, footer {
-    font-family: 'Arial', sans-serif;
+h2 {
+    color: #ffcc00; /* Star yellow */
+    text-shadow: 2px 2px 4px #000000; /* Shadow for better readability */
 }
 
 .button-container {
@@ -106,9 +109,9 @@ h2, button, footer {
 
 button {
     margin: 15px 0;
-    background-color: #333;
+    background-color: #444;
     color: white;
-    border: 2px solid #555;
+    border: 2px solid #ffcc00; /* Star yellow border */
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
@@ -118,7 +121,8 @@ button {
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #ffcc00; /* Star yellow */
+    color: black;
     transform: scale(1.05);
 }
 
